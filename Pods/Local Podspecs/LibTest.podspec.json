@@ -1,0 +1,22 @@
+{
+  "name": "LibTest",
+  "version": "0.1.0",
+  "summary": "A short description of LibTest.",
+  "description": "this is a Demo",
+  "homepage": "https://github.com/silicn/LibTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "silicn": "silicn@126.com"
+  },
+  "source": {
+    "git": "https://github.com/silicn/LibTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LibTest/LibTest/Classes/**/*"
+}

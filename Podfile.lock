@@ -1,0 +1,16 @@
+PODS:
+  - LibTest (0.1.0)
+
+DEPENDENCIES:
+  - LibTest (from `../LibTest`)
+
+EXTERNAL SOURCES:
+  LibTest:
+    :path: "../LibTest"
+
+SPEC CHECKSUMS:
+  LibTest: ec1751ffc7e522bf05a3c9281679d2b6f7e576f9
+
+PODFILE CHECKSUM: 15d0a987f0ec618d26d117bd484f53c01bfbf938
+
+COCOAPODS: 1.9.1
