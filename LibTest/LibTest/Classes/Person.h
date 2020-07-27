@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, assign) NSInteger age ;
 
+@property  (nonatomic, assign) NSInteger years;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1B7CBF632961656AE2532847C47529B5 /* Pods-LibTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AFE9E6DB43EFDB8AA228797EDE6FB20 /* Pods-LibTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A142F424CF2CD400416940 /* Student.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A142F224CF2CD400416940 /* Student.h */; };
+		46A142F524CF2CD400416940 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A142F324CF2CD400416940 /* Student.m */; };
 		62D238D10408BECBD2B8D87C970FCBFA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 254C72DA7475AB014F76BBAB4929030F /* Person.m */; };
 		7E299F4E4803591CE97FE39AA105D746 /* LibTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19014189299CB180F6C5C835E674E0E6 /* LibTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86785FCA60B8F42EFCC2BB0C9C431F0D /* Pods-LibTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A3C5A2A80D4694670C789F804A5BA4 /* Pods-LibTest_Example-dummy.m */; };
@@ -15,7 +17,6 @@
 		B519DAFB641AE2D169FC4F1D97F19DBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CFBF15D88E931481689DDC7E2ECFB9DC /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = F22C548989865B6998E8F4C37C8760B9 /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D92E29BD516A33C0903B09CAE723FA57 /* LibTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C248D68B167D64A539E3E584E47AAFF0 /* LibTest-dummy.m */; };
-		F6089FACFEF8007BAD00EC3022D44C18 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A5273ACE0B31D0C9D9DEAB2A37D718 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,29 +33,30 @@
 		0AFE9E6DB43EFDB8AA228797EDE6FB20 /* Pods-LibTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LibTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		19014189299CB180F6C5C835E674E0E6 /* LibTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibTest-umbrella.h"; sourceTree = "<group>"; };
 		1A1784B75C7AF47EECC56EA6E3AEF2A6 /* LibTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LibTest.release.xcconfig; sourceTree = "<group>"; };
-		202C52D098F1F4DB6F1D644F43C9E682 /* Pods_LibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LibTest_Example.framework; path = "Pods-LibTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		202C52D098F1F4DB6F1D644F43C9E682 /* Pods_LibTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		254C72DA7475AB014F76BBAB4929030F /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = LibTest/LibTest/Classes/Person.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3FF11A03079AC13822CD3E93E05E2BF4 /* LibTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LibTest-Info.plist"; sourceTree = "<group>"; };
+		46A142F224CF2CD400416940 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Student.h; path = LibTest/LibTest/Classes/Student.h; sourceTree = "<group>"; };
+		46A142F324CF2CD400416940 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = LibTest/LibTest/Classes/Student.m; sourceTree = "<group>"; };
 		4F221CB02B7F94F188A18BB84B6663E6 /* LibTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LibTest-prefix.pch"; sourceTree = "<group>"; };
 		57A3C5A2A80D4694670C789F804A5BA4 /* Pods-LibTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LibTest_Example-dummy.m"; sourceTree = "<group>"; };
 		5981C4C8D6E604D9CCB59E70E739D660 /* Pods-LibTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		651953CFA4609D7300EB87EA68D00002 /* Pods-LibTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LibTest_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6E1E096D9D60DEBE6BB3D5FEEFD826F8 /* LibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LibTest.framework; path = LibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1E096D9D60DEBE6BB3D5FEEFD826F8 /* LibTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8346B0564FBB53A859D0247FB35B7CA2 /* Pods-LibTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LibTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		83529D3F1C5EEA180A9CC8445B42DAB2 /* Pods-LibTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibTest_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5EBD5FB21C99A1C90B98A8885DE38F7 /* LibTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LibTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5EBD5FB21C99A1C90B98A8885DE38F7 /* LibTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LibTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8EF5CD81A022450C65BEC21CEB1E33E /* Pods-LibTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LibTest_Example.modulemap"; sourceTree = "<group>"; };
 		AB868BA143DC5D628079BB56232708E2 /* LibTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LibTest.modulemap; sourceTree = "<group>"; };
 		C248D68B167D64A539E3E584E47AAFF0 /* LibTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LibTest-dummy.m"; sourceTree = "<group>"; };
 		D3C0599DCC66634FE13C5DE7ACB66E17 /* LibTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LibTest.debug.xcconfig; sourceTree = "<group>"; };
-		DD95B8145544AA06F419388AF195A27C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DE21AFEA5908D157DC98FA488FE68393 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DD95B8145544AA06F419388AF195A27C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DE21AFEA5908D157DC98FA488FE68393 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E0935E4C77BAD3F920393E978CF28A0D /* Pods-LibTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LibTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E24733AAA4491239CC61944B1713C4D8 /* Pods-LibTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LibTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F22C548989865B6998E8F4C37C8760B9 /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Person.h; path = LibTest/LibTest/Classes/Person.h; sourceTree = "<group>"; };
-		F3A5273ACE0B31D0C9D9DEAB2A37D718 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LibTest/LibTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +124,8 @@
 			children = (
 				F22C548989865B6998E8F4C37C8760B9 /* Person.h */,
 				254C72DA7475AB014F76BBAB4929030F /* Person.m */,
-				F3A5273ACE0B31D0C9D9DEAB2A37D718 /* ReplaceMe.m */,
+				46A142F224CF2CD400416940 /* Student.h */,
+				46A142F324CF2CD400416940 /* Student.m */,
 				AB7F382C3FBC14DD0AE75536AE512552 /* Pod */,
 				03E634AADCB8B843D851EE0B35F74055 /* Support Files */,
 			);
@@ -201,6 +204,7 @@
 			files = (
 				7E299F4E4803591CE97FE39AA105D746 /* LibTest-umbrella.h in Headers */,
 				CFBF15D88E931481689DDC7E2ECFB9DC /* Person.h in Headers */,
+				46A142F424CF2CD400416940 /* Student.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +308,7 @@
 			files = (
 				D92E29BD516A33C0903B09CAE723FA57 /* LibTest-dummy.m in Sources */,
 				62D238D10408BECBD2B8D87C970FCBFA /* Person.m in Sources */,
-				F6089FACFEF8007BAD00EC3022D44C18 /* ReplaceMe.m in Sources */,
+				46A142F524CF2CD400416940 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,8 +473,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
