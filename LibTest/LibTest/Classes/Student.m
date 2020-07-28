@@ -9,4 +9,9 @@
 
 @implementation Student
 
+- (void)run
+{
+    NSLog(@"Student Run");
+}
+
 @end
